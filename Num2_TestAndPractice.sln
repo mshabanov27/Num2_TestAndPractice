@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num2_TestAndPractice", "Num2_TestAndPractice\Num2_TestAndPractice.csproj", "{083C6F35-C3CE-4354-B7E5-04CC6F64837B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1_TaP", "Num2_TestAndPractice\Task1_TaP.csproj", "{083C6F35-C3CE-4354-B7E5-04CC6F64837B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_Tap", "Task2_Tap\Task2_Tap.csproj", "{B6C392F7-17DD-4498-97C9-68A0EB4CA51F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{083C6F35-C3CE-4354-B7E5-04CC6F64837B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{083C6F35-C3CE-4354-B7E5-04CC6F64837B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{083C6F35-C3CE-4354-B7E5-04CC6F64837B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C392F7-17DD-4498-97C9-68A0EB4CA51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C392F7-17DD-4498-97C9-68A0EB4CA51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C392F7-17DD-4498-97C9-68A0EB4CA51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C392F7-17DD-4498-97C9-68A0EB4CA51F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
