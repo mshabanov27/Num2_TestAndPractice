@@ -33,7 +33,7 @@ namespace Task2_Tap
     {
         public void WriteTable(string fileName, string table)
         {
-            StreamWriter writeText = new StreamWriter(fileName, false);
+            var writeText = new StreamWriter(fileName, false);
             writeText.WriteLine(table);
             writeText.Close();
         }
