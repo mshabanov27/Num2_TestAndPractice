@@ -6,8 +6,7 @@ namespace Task2_Tap
     {
         static void Main(string[] args)
         {
-            string text = FileWorker.readFromFile("file1.csv");
-            FileWorker.writeToFile("resultFile.csv", FileWorker.editText(text));
+
         }
     }
 }
