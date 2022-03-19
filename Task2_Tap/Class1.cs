@@ -29,6 +29,16 @@ namespace Task2_Tap
         }
     }
 
+    class CsvWriter
+    {
+        public void WriteTable(string fileName, string table)
+        {
+            StreamWriter writeText = new StreamWriter(fileName, false);
+            writeText.WriteLine(table);
+            writeText.Close();
+        }
+    }
+
     static class FileWorker
     {
         public static string readFromFile(string name)
