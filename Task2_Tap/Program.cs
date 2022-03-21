@@ -6,7 +6,7 @@ namespace Task2_Tap
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
