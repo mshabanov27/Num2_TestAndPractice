@@ -2,7 +2,7 @@
 
 namespace Task2_Tap
 {
-    class Program
+    class Lab2_Practice
     {
         static void Main(string[] args)
         {

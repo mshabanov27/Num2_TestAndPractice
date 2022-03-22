@@ -8,7 +8,7 @@ namespace Task2_Tap
     {
         private string _teamName;
         private List<string> _scores;
-        public int result;
+        private int _result;
 
         public Team(string teamInfo)
         {
@@ -30,15 +30,15 @@ namespace Task2_Tap
 
                 if (currentMatch.getMyScore > currentMatch.getOpponentScore)
                 {
-                    result += 3;
+                    _result += 3;
                 }
                 else if (currentMatch.getMyScore == currentMatch.getOpponentScore)
                 {
-                    result++;
+                    _result++;
                 }
             }
 
-            return result;
+            return _result;
         }
        
     }
