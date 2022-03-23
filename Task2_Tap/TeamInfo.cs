@@ -7,8 +7,8 @@ namespace Task2_Tap
     class Team
     {
         private string _teamName;
-        private List<string> _scores;
-        private int _result;
+        private List<string> _scores = new List<string>();
+        private int _result = 0;
 
         public Team(string teamInfo)
         {
@@ -40,7 +40,7 @@ namespace Task2_Tap
 
             return _result;
         }
-       
+
     }
 
     class MatchResult

@@ -24,7 +24,9 @@ namespace Task2_Tap
         public void WriteTable(string fileName, List<string> table)
         {
             var writeText = new StreamWriter(fileName, false);
-            writeText.WriteLine(table);
+
+            var text = string.Join("\n", table);
+            writeText.WriteLine(text);
             writeText.Close();
         }
     }
