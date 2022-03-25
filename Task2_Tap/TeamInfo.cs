@@ -21,7 +21,7 @@ namespace Task2_Tap
             }
         }
 
-        public int resultCounter()
+        public int ResultCounter()
         {
             for (int i = 0; i < _scores.Count; i++)
             {

@@ -13,9 +13,9 @@ namespace Task2_Tap
             string results = fileText.ReadToEnd();
             fileText.Close();
 
-            var teams = results.Split("\n", StringSplitOptions.RemoveEmptyEntries).ToList();
+            var lines = results.Split("\n", StringSplitOptions.RemoveEmptyEntries).ToList();
             
-            return teams;
+            return lines;
         }
     }
 

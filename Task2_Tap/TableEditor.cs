@@ -10,7 +10,7 @@ namespace Task2_Tap
             {
                 var team = new Team(teams[i]);
 
-                string total = team.resultCounter().ToString();
+                string total = team.ResultCounter().ToString();
 
                 teams[i] = _replacer(teams[i], total);
             }
